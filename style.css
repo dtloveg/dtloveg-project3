@@ -102,7 +102,7 @@ overflow: hidden;
 
 .brand-list-heading {
     margin: 0;
-    padding: 16px;
+    padding: 16px 0 0 16px;
     font-weight: 400; 
     font-size: 16px;
     min-height: 50px;
@@ -155,12 +155,17 @@ overflow: hidden;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1119.98px) {
+
+    .brand-list-heading {
+    padding: 16px 0 0 24px;
+    }
     .brand-list-swiper-wrapper {
         display: flex;
         flex-direction: row;   
         flex-wrap: wrap;
         max-height: 159px; 
         overflow-y: hidden;
+        transition: all 1s 0.1s;
     }
    
     .swiper-pagination {
@@ -178,12 +183,17 @@ overflow: hidden;
 }   
 
 @media screen and (min-width: 1120px) {
+    .brand-list-heading {
+    padding: 16px 0 0 36px;
+    }
+    
     .brand-list-swiper-wrapper {
         display: flex;
         flex-direction: row;   
         flex-wrap: wrap;
         max-height: 159px; 
         overflow-y: hidden;
+        transition: all 1s 0.1s;
 }
 
 .swiper-pagination {
