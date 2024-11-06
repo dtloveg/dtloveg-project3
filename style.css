@@ -193,6 +193,10 @@ overflow: hidden;
 .brand-list-swiper-wrapper--hidden {
     max-height: 100vh; 
 }
-
+.brand-list {
+    max-width: 1056px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 }   
