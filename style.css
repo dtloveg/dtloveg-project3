@@ -37,7 +37,7 @@ body {
 }
 
 
-.brand-list-swiper {
+.brand-list__swiper {
 display: flex;
 
 height: auto;
@@ -47,14 +47,14 @@ overflow: hidden;
 
 }
 
-.brand-list-swiper-wrapper {
+.brand-list__swiper-wrapper {
     box-sizing: content-box;
     padding-bottom: 36px;
     width: 100%;
         
 }
 
-.brand-list-swiper-slide {
+.brand-list__swiper-slide {
     display: flex;   
     width: 240px; 
     
@@ -89,7 +89,7 @@ overflow: hidden;
 
 }
 
-.brand-list-swiper-pagination-bullet {
+.brand-list__swiper-pagination-bullet {
     background-color: #DDDDDD;
     width: 12px;
     height: 12px;
@@ -100,7 +100,7 @@ overflow: hidden;
     background-color: #B5B6BC;
 }
 
-.brand-list-heading {
+.brand-list__heading {
     margin: 0;
     padding: 16px 0 0 16px;
     font-weight: 400; 
@@ -110,7 +110,7 @@ overflow: hidden;
     
 }
 
-.button-show-more {
+.brand-list__button--show-more {
    
     border: none;
     background: none;
@@ -120,7 +120,7 @@ overflow: hidden;
     font-size: 16px;
 }
 
-.button-show-more:before {
+.brand-list__button-show-more:before {
     content: "";
     width: 24px;
     height: 24px;
@@ -130,18 +130,18 @@ overflow: hidden;
     background-position: center;
 }
 
-.button-show-more--clicked::before{
+.brand-list__button-show-more--clicked::before{
     transform: rotate(180deg);
   }
 
 
 
 @media screen and (min-width: 320px) and (max-width: 767.98px) {
-    .button-show-more, .button-show-more:before {
+    .brand-list__button-show-more, .brand-list__button-show-more:before {
         display: none;
     }
 
-    .brand-list-swiper::after {
+    .brand-list__swiper::after {
         content: "";
         width: 30px;
         height: 170px;
@@ -156,10 +156,10 @@ overflow: hidden;
 
 @media screen and (min-width: 768px) and (max-width: 1119.98px) {
 
-    .brand-list-heading {
+    .brand-list__heading {
     padding: 16px 0 0 24px;
     }
-    .brand-list-swiper-wrapper {
+    .brand-list__swiper-wrapper {
         display: flex;
         flex-direction: row;   
         flex-wrap: wrap;
@@ -173,7 +173,7 @@ overflow: hidden;
     
     }
 
-    .brand-list-swiper-wrapper--hidden {
+    .brand-list__swiper-wrapper--hidden {
         max-height: 100vh; 
       
        
@@ -183,11 +183,11 @@ overflow: hidden;
 }   
 
 @media screen and (min-width: 1120px) {
-    .brand-list-heading {
+    .brand-list__heading {
     padding: 16px 0 0 36px;
     }
     
-    .brand-list-swiper-wrapper {
+    .brand-list__swiper-wrapper {
         display: flex;
         flex-direction: row;   
         flex-wrap: wrap;
@@ -200,7 +200,7 @@ overflow: hidden;
     display: none;
 }
 
-.brand-list-swiper-wrapper--hidden {
+.brand-list__swiper-wrapper--hidden {
     max-height: 100vh; 
 }
 .brand-list {
