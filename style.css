@@ -150,7 +150,15 @@ overflow: hidden;
         right: 0;
         z-index: 100;
     }
-
+    .brand-list-swiper::before {
+        content: "";
+        width: 16px;
+        height: 170px;
+        background-image: linear-gradient(to right, #FFFFFF, #F8F8F8, transparent 100%);
+        position: absolute;
+        left: 0;
+        z-index: 100;
+    }
 
 }
 
